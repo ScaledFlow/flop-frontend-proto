@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/flop-frontend-proto/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/flop-frontend-proto/static/js/main.cff68ca6.chunk.js",
-    "main.js.map": "/flop-frontend-proto/static/js/main.cff68ca6.chunk.js.map",
+    "main.js": "/flop-frontend-proto/static/js/main.0caa5a52.chunk.js",
+    "main.js.map": "/flop-frontend-proto/static/js/main.0caa5a52.chunk.js.map",
     "runtime-main.js": "/flop-frontend-proto/static/js/runtime-main.482a5fb1.js",
     "runtime-main.js.map": "/flop-frontend-proto/static/js/runtime-main.482a5fb1.js.map",
-    "static/js/2.d92d7773.chunk.js": "/flop-frontend-proto/static/js/2.d92d7773.chunk.js",
-    "static/js/2.d92d7773.chunk.js.map": "/flop-frontend-proto/static/js/2.d92d7773.chunk.js.map",
+    "static/js/2.6b18834b.chunk.js": "/flop-frontend-proto/static/js/2.6b18834b.chunk.js",
+    "static/js/2.6b18834b.chunk.js.map": "/flop-frontend-proto/static/js/2.6b18834b.chunk.js.map",
     "static/js/3.e8267415.chunk.js": "/flop-frontend-proto/static/js/3.e8267415.chunk.js",
     "static/js/3.e8267415.chunk.js.map": "/flop-frontend-proto/static/js/3.e8267415.chunk.js.map",
     "index.html": "/flop-frontend-proto/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/flop-frontend-proto/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.d92d7773.chunk.js.LICENSE.txt": "/flop-frontend-proto/static/js/2.d92d7773.chunk.js.LICENSE.txt",
+    "static/js/2.6b18834b.chunk.js.LICENSE.txt": "/flop-frontend-proto/static/js/2.6b18834b.chunk.js.LICENSE.txt",
     "static/media/logo.103b5fa1.svg": "/flop-frontend-proto/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.482a5fb1.js",
-    "static/js/2.d92d7773.chunk.js",
+    "static/js/2.6b18834b.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.cff68ca6.chunk.js"
+    "static/js/main.0caa5a52.chunk.js"
   ]
 }
