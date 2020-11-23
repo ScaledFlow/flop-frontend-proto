@@ -1,3 +1,9 @@
+
+## Install
+npm i -S node-sass-chokidar
+npm i --save react-router-dom@5 --save-exact
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
