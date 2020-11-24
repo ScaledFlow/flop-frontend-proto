@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/flop-frontend-proto/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/flop-frontend-proto/static/js/main.0caa5a52.chunk.js",
-    "main.js.map": "/flop-frontend-proto/static/js/main.0caa5a52.chunk.js.map",
-    "runtime-main.js": "/flop-frontend-proto/static/js/runtime-main.482a5fb1.js",
-    "runtime-main.js.map": "/flop-frontend-proto/static/js/runtime-main.482a5fb1.js.map",
-    "static/js/2.6b18834b.chunk.js": "/flop-frontend-proto/static/js/2.6b18834b.chunk.js",
-    "static/js/2.6b18834b.chunk.js.map": "/flop-frontend-proto/static/js/2.6b18834b.chunk.js.map",
-    "static/js/3.e8267415.chunk.js": "/flop-frontend-proto/static/js/3.e8267415.chunk.js",
-    "static/js/3.e8267415.chunk.js.map": "/flop-frontend-proto/static/js/3.e8267415.chunk.js.map",
+    "main.css": "/flop-frontend-proto/static/css/main.ddb7ba40.chunk.css",
+    "main.js": "/flop-frontend-proto/static/js/main.7dd00da9.chunk.js",
+    "main.js.map": "/flop-frontend-proto/static/js/main.7dd00da9.chunk.js.map",
+    "runtime-main.js": "/flop-frontend-proto/static/js/runtime-main.ec425629.js",
+    "runtime-main.js.map": "/flop-frontend-proto/static/js/runtime-main.ec425629.js.map",
+    "static/js/2.916a08d9.chunk.js": "/flop-frontend-proto/static/js/2.916a08d9.chunk.js",
+    "static/js/2.916a08d9.chunk.js.map": "/flop-frontend-proto/static/js/2.916a08d9.chunk.js.map",
+    "static/js/3.d9d7a64b.chunk.js": "/flop-frontend-proto/static/js/3.d9d7a64b.chunk.js",
+    "static/js/3.d9d7a64b.chunk.js.map": "/flop-frontend-proto/static/js/3.d9d7a64b.chunk.js.map",
     "index.html": "/flop-frontend-proto/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/flop-frontend-proto/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.6b18834b.chunk.js.LICENSE.txt": "/flop-frontend-proto/static/js/2.6b18834b.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/flop-frontend-proto/static/media/logo.103b5fa1.svg"
+    "static/css/main.ddb7ba40.chunk.css.map": "/flop-frontend-proto/static/css/main.ddb7ba40.chunk.css.map",
+    "static/js/2.916a08d9.chunk.js.LICENSE.txt": "/flop-frontend-proto/static/js/2.916a08d9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.482a5fb1.js",
-    "static/js/2.6b18834b.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.0caa5a52.chunk.js"
+    "static/js/runtime-main.ec425629.js",
+    "static/js/2.916a08d9.chunk.js",
+    "static/css/main.ddb7ba40.chunk.css",
+    "static/js/main.7dd00da9.chunk.js"
   ]
 }
