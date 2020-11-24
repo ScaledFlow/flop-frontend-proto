@@ -2,7 +2,7 @@ import './PortfolioPage.scss';
 
 const PortfolioPage = props => {
   return (
-    <h1>News Page</h1>
+    <h1>Portfolio Page</h1>
   )
 }
 

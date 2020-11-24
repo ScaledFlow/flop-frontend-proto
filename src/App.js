@@ -1,5 +1,5 @@
-import React from 'react';
-import{ BrowserRouter as Router, Route } from 'react-router-dom';
+// import React from 'react';
+import{ BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 import './App.scss';
 
@@ -16,22 +16,34 @@ const App = () => {
 
   return (
     <Router>
-      <Route path="/"> 
-        <TickerHeader />  
-      </Route>
-
-
+      <TickerHeader />  
+      <AuthHeader />  
+      <MenuHeader />  
+      <Switch>
+        <Route path="/" exact> 
+          <StatsWatchPage />
+        </Route>
+        <Route path="/about" exact> 
+          <AboutPage />  
+        </Route>
+        <Route path="/portfolio" exact> 
+          <PortfolioPage />  
+        </Route>
+        <Route path="/News" exact> 
+          <StockNewsPage />  
+        </Route>
+        <Route path="/about" exact> 
+          <AboutPage />  
+        </Route>
+        <Route path="/" exact> 
+          <TickerHeader />  
+        </Route>
+        <Redirect to='/' />
+      </Switch>
     </Router>
   )
 
   // <div className="App">
-  //   <TickerHeader />
-  //   <MenuHeader />
-  //   <AuthHeader />
-  //   <AboutPage />
-  //   <StockNewsPage />
-  //   <PortfolioPage />
-  //   <StatsWatchPage />
   // </div>
 
 }
