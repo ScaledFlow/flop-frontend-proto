@@ -1,0 +1,64 @@
+
+*, *::before, *::after {
+  // font-family: "Lucida Console", Courier, monospace;
+  font-family: Trebuchet MS,roboto,ubuntu,sans-serif;
+  font-weight: 200;
+  font-style: light;
+  box-sizing: border-box;
+}
+
+// CSS VARIABLE
+:root {
+  --color-primary: white;
+  --color-background-blue-black-1: rgb(41, 45, 56);
+  --color-background-blue-black-2: rgb(30, 34, 45);
+  --color-background-blue-black-3: rgb(19, 23, 34);
+  --color-background-blue-black-4:  rgb(19, 23, 34, .95);
+
+  // SIDEBAR
+  --color-sidebar:  rgb(19, 23, 34);
+  --color-sidebar-icon: rgb(42, 46, 57);
+
+  // TICKER
+  --color-ticker-green: rgb(0, 137, 123);
+  --color-ticker-red: rgb(229, 57, 53);
+  --color-ticker-red-2: rgb(229, 57, 53, .8);
+
+  --color-ticker-black: rgb(12, 14, 21);
+  --color-ticker-white: rgb(202, 203, 204);
+
+  // MISC
+  --color-alert-red: rgb(255, 74, 104);
+  --color-ticker-white: rgb(255, 255, 255);
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc; 
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+  
+  // NAVBAR ONE
+  --color-background-nav1-black-blue: rgb(30, 34, 45);
+  --color-button-nav1-white:  rgb(202, 203, 204);
+  --color-button-nav1-grey: rgb(67, 70, 81);
+  --color-background-nav1-search-grey: rgb(54, 58, 69);
+  --color-icon-nav1-blue: rgb(54, 58, 69);
+
+  // NAVBAR TWO
+  --color-background-nav2-black-blue: rgb(42, 46, 57);
+  --color-text-nav2-white:  rgb(202, 203, 204);
+  --color-text-nav2-white-bold: rgb(208, 211, 220);
+  --color-icon-nav2-green: rgb(29, 161, 79);
+  --color-button-lightblue: rgb(33, 150, 243);
+  --color-button-darkblue: rgb(28, 71, 134);
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

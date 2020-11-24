@@ -1,16 +1,16 @@
 // import React from 'react';
 import{ BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
-import './App.scss';
+import './Base.scss';
 
-import TickerHeader from './headers/TickerHeader';
-import MenuHeader from './headers/MenuHeader';
-import AuthHeader from './headers/AuthHeader';
-import AboutPage from './pages/AboutPage';
-import StockNewsPage from './pages/StockNewsPage';
-import PortfolioPage from './pages/PortfolioPage';
-import StatsWatchPage from './pages/StatsWatchPage';
-
+import TickerHeader from './shared/components/Navigation/TickerHeader';
+import MenuHeader from './shared/components/Navigation/MenuHeader';
+import AuthHeader from './shared/components/Navigation/AuthHeader';
+import AboutPage from './focusAreas/pages/AboutPage';
+import StockNewsPage from './focusAreas/pages/StockNewsPage';
+import PortfolioPage from './focusAreas/pages/PortfolioPage';
+import StatsWatchPage from './focusAreas/pages/StatsWatchPage';
+import Users from './user/pages/Users';
 
 const App = () => {
 
@@ -19,6 +19,7 @@ const App = () => {
       <TickerHeader />  
       <AuthHeader />  
       <MenuHeader />  
+      <Users />
       <Switch>
         <Route path="/" exact> 
           <StatsWatchPage />
@@ -32,8 +33,8 @@ const App = () => {
         <Route path="/News" exact> 
           <StockNewsPage />  
         </Route>
-        <Route path="/about" exact> 
-          <AboutPage />  
+        <Route path="/Stats" exact> 
+          <StatsWatchPage />  
         </Route>
         <Route path="/" exact> 
           <TickerHeader />  
